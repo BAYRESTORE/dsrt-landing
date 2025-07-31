@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -24,18 +23,14 @@
       background: #1a1a1a;
       border-bottom: 1px solid #333;
     }
-    .logo-title {
-      display: flex;
-      flex-direction: column;
-    }
     .logo-title h1 {
       margin: 0;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-weight: bold;
       color: #f0c040;
     }
     .logo-title span {
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       color: #aaa;
     }
     .login-btn {
@@ -49,19 +44,38 @@
     .hero {
       text-align: center;
       margin: 40px 20px 20px;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: #ddd;
     }
-    .cta {
+    .cta, .cta-bottom {
       background: #222;
       padding: 20px;
       text-align: center;
       font-size: 1.1rem;
       font-weight: bold;
       color: #f0c040;
-      margin: 20px 0;
+      margin: 30px 0;
       border-top: 1px solid #333;
       border-bottom: 1px solid #333;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .buttons a button {
+      background: #f0c040;
+      color: #000;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .buttons a button:hover {
+      background: #ffd966;
     }
     .section-title {
       margin: 40px 0 10px;
@@ -75,6 +89,29 @@
       margin: 0 auto;
       border-top: 1px solid #333;
       padding-top: 10px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    .gallery-item {
+      text-align: center;
+    }
+    .gallery-item img {
+      border-radius: 10px;
+      width: 180px;
+      height: auto;
+      border: 1px solid #444;
+    }
+    .gallery-item p {
+      margin-top: 6px;
+      font-size: 0.9rem;
+      color: #ccc;
     }
     .footer {
       margin-top: 40px;
@@ -108,21 +145,49 @@
   </div>
 
   <div class="cta">
-    [ UJI COBA GRATIS • GRATIS 100% ]
+    UJI COBA GRATIS • 100% GRATIS UNTUK SEMUA PENGGUNA
+    <div class="buttons">
+      <a href="https://dsrt-soft.vercel.app/" target="_blank">
+        <button>Coba Sekarang</button>
+      </a>
+    </div>
   </div>
 
-  <div class="section-title">✦ SISTEM DSRT ✦</div>
+  <div class="section-title">✦ HASIL RESTORE DSRT ✦</div>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="hasil/asli1.jpg" alt="Foto asli 1">
+      <p>Foto Asli</p>
+    </div>
+    <div class="gallery-item">
+      <img src="hasil/restorasi1.jpg" alt="Hasil Restore 1">
+      <p>Setelah DSRT</p>
+    </div>
+    <!-- Tambah lagi pasangan gambar di sini -->
+  </div>
+
+  <div class="section-title">✦ FITUR UNGGULAN ✦</div>
 
   <div class="features">
-    <p style="text-align:center;">✔️ Restore Otomatis</p>
-    <p style="text-align:center;">✔️ One Tap Remaster</p>
-    <p style="text-align:center;">✔️ Manual & AI Fix Tools</p>
-    <p style="text-align:center;">✔️ Kompatibel Mobile/Desktop</p>
+    <p>✔️ Restore Otomatis</p>
+    <p>✔️ One Tap Remaster</p>
+    <p>✔️ Manual & AI Fix Tools</p>
+    <p>✔️ Kompatibel Mobile/Desktop</p>
+  </div>
+
+  <div class="cta-bottom">
+    Sudah Siap Meningkatkan Kualitas Gambar Anda?
+    <div class="buttons">
+      <a href="https://dsrt-soft.vercel.app/" target="_blank">
+        <button>Mulai Restore Sekarang</button>
+      </a>
+    </div>
   </div>
 
   <div class="footer">
     <a href="#">Tentang Kami</a> |
-    <a href="#">WhatsApp Admin</a> |
+    <a href="https://wa.me/6287838441426" target="_blank">WhatsApp Admin</a> |
     © DSRT 2025
   </div>
 
