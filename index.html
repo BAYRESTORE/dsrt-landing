@@ -1,18 +1,155 @@
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html><html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DSRT Landing Page</title>
+  <title>DSRT Studio – Restore & Desain Digital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0e0e0e;
+      color: #ffffff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #f0c040;
+    }
+    .login-btn {
+      background: #f0c040;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      color: #fff;
+    }
+    .hero p {
+      color: #ccc;
+      margin-top: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta a {
+      background: #f0c040;
+      color: #000;
+      padding: 14px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .gallery {
+      overflow-x: auto;
+      display: flex;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+    }
+    .gallery img {
+      height: 200px;
+      border-radius: 12px;
+    }
+    .section-title {
+      text-align: center;
+      margin: 40px 0 10px;
+      font-size: 1.4rem;
+      color: #f0c040;
+    }
+    .features {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-box {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+    }
+    .feature-box h3 {
+      margin: 0 0 10px;
+      color: #f0c040;
+    }
+    .feature-box p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      background: #1a1a1a;
+      border-top: 1px solid #333;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #f0c040;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <a href="/register.html">Login / Daftar</a>
-  </header>
-  <main>
-    <h1>Selamat datang di DSRT Studio</h1>
-    <p>Mulai restore foto dengan teknologi canggih dari DSRT.</p>
-    <a href="/register.html">🚀 Coba Sekarang</a>
-  </main>
+    <div class="logo">DSRT</div>
+    <a href="/register.html" class="login-btn">Login / Daftar</a>
+  </header>  <div class="hero">
+    <h1>Transformasi Foto Lama Anda Menjadi Karya Baru</h1>
+    <p>Studio kreatif untuk restorasi, desain logo, dan editing visual berbasis AI.</p>
+  </div>  <div class="cta">
+    <a href="/register.html">🚀 Coba Sekarang Gratis</a>
+  </div>  <div class="section-title">Galeri Sebelum & Sesudah</div>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Sebelum+1" alt="before">
+    <img src="https://via.placeholder.com/300x200?text=Sesudah+1" alt="after">
+    <img src="https://via.placeholder.com/300x200?text=Sebelum+2" alt="before">
+    <img src="https://via.placeholder.com/300x200?text=Sesudah+2" alt="after">
+    <img src="https://via.placeholder.com/300x200?text=Sebelum+3" alt="before">
+    <img src="https://via.placeholder.com/300x200?text=Sesudah+3" alt="after">
+  </div>  <div class="section-title">Fitur Utama DSRT</div>
+  <div class="features">
+    <div class="feature-box">
+      <h3>Restore Otomatis</h3>
+      <p>Perbaiki warna, kerusakan, dan kualitas foto lama secara otomatis dengan teknologi AI.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Editor Manual + One Tap</h3>
+      <p>Kontrol penuh untuk editing lanjutan atau gunakan fitur instan hanya sekali klik.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Desain Logo Cepat</h3>
+      <p>Ciptakan logo profesional dari template pintar atau mulai dari nol.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Keamanan & Lisensi</h3>
+      <p>Sistem berbasis IP & akun, menjamin privasi & akses eksklusif pengguna premium.</p>
+    </div>
+  </div>  <footer>
+    <a href="#">Tentang Kami</a> |
+    <a href="#">WhatsApp Admin</a>
+    <br>© DSRT 2025
+  </footer>
 </body>
 </html>
